@@ -1,0 +1,98 @@
+.error-text {
+    font-size: 13.5px;
+    font-weight: bold;
+}
+
+.card {
+    border: none !important;
+    -webkit-box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-primary {
+    background-color: #5b6be8 !important;
+    border-color: #5b6be8 !important;
+}
+
+.card-success {
+    background-color: #3cab94 !important;
+    border-color: #3cab94 !important;
+}
+
+.card-info {
+    background-color: #40a4f1 !important;
+    border-color: #40a4f1 !important;
+}
+
+.card-warning {
+    background-color: #f5b225 !important;
+    border-color: #f5b225 !important;
+}
+
+.card-danger {
+    background-color: #ec536c !important;
+    border-color: #ec536c !important;
+}
+
+.card-header {
+    border-bottom: 1px solid rgba(45, 59, 72, 0.05) !important;
+    transition: 0.3s all;
+    border: 1px solid #eff3f6 !important;
+}
+
+.card-footer {
+    background: var(--container-color) !important;
+    transition: 0.3s all;
+    border: 1px solid #eff3f6 !important;
+}
+
+.card-body {
+    background: var(--container-color) !important;
+    border: 1px solid #eff3f6 !important;
+    transition: 0.3s all;
+}
+
+/* ========== Table Costum ========== */
+.table {
+    margin-bottom: 10px !important;
+}
+
+th {
+    font-weight: 500 !important;
+    transition: 0.3s all;
+    text-align: center !important;
+}
+
+td {
+    transition: 0.3s all;
+    text-align: center;
+}
+
+.table>tbody>tr>td>img {
+    width: 60px;
+}
+
+.table>tbody>tr>td,
+.table>tfoot>tr>td,
+.table>thead>tr>th {
+    padding: 14px 12px !important;
+    vertical-align: middle !important;
+}
+
+.table-hover tbody tr:hover,
+.table-striped tbody tr:nth-of-type(odd),
+.thead-default th {
+    background-color: #eff3f6 !important;
+}
+
+.table>thead>tr>.no-line {
+    border-bottom: none !important;
+}
+
+.table>tbody>tr>.no-line {
+    border-top: none !important;
+}
+
+.table>tbody>tr>.thick-line {
+    border-top: 2px solid #eff3f6 !important;
+}
